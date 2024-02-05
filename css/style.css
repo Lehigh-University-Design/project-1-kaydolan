@@ -1,14 +1,18 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: white;
-    background-color: rgb(89, 105, 93);
+    color: rgb(0, 0, 0);
+    background-color: rgb(78, 84, 95);
     margin: 20px;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .begin {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
     padding: 10px 20px;
     h2 {text-align: center ;}
@@ -21,7 +25,7 @@ body {
 }
 
 .again {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
     padding: 10px 20px;
     h2 {text-align: center ;}
@@ -34,7 +38,7 @@ body {
 }
 
 .future {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
     padding: 10px 20px;
     h2 {text-align: center ;}
@@ -47,7 +51,7 @@ body {
 }
 
 .mobile {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
     padding: 10px 20px;
     h2 {text-align: center ;}
