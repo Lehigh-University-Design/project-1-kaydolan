@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
-  
+    <link rel="stylesheet" href="css/navigation.css">
+
+    <script src="js/navigator.js"></script>
     
 </head>
 <body>
@@ -54,6 +56,21 @@
         <p>The development of Web 2.0 greatly accelerated the growth of use in mobile devices. Computers took on the form of smartphones, allowing users to take photos and videos that they could instantly share at the click of a button.</p>
         <p>This "revolution" allowed people to have a nearly unlimited amount of information at their fingertips. We can even see the effect today, as the increase in social media "influencers" has taken the internet by storm.</p>
     </div>     
+    
+    <footer>
+        <nav class="navbar">
+            <ul class="navbar-name">
+                <h2>Twelve</h2>
+            </ul>
+
+            <ul class="navbar-links">
+                <a href="#" onclick="goToRandom()">Random</a>
+                <a href="#" onclick="goToPrevious()">Prev</a>
+                <a href="#" onclick="goToNext()">Next</a>
+            </ul>
+        </nav>
+        <div class="navbar-padding"></div>
+    </footer>
 
 </body>
 </html>
