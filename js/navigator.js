@@ -5,6 +5,7 @@
 var websites = [
     "https://lehigh-university-design.github.io/project-1-awb324/", // 1
     "https://lehigh-university-design.github.io/project-1-sit225/", // 2
+    "https://lehigh-university-design.github.io/project-1-lar326/", // 3
     "https://lehigh-university-design.github.io/project-1-adrawoot/", // 4
     "https://lehigh-university-design.github.io/project-1-mmurata22/", // 5
     "https://lehigh-university-design.github.io/project-1-SSShee77y/", // 6
@@ -23,13 +24,8 @@ var websites = [
 var currentIndex = 0;
 
 window.onload = function getCurrentIndex() {
-    var path = window.location.href; 
-    var page = path.split("/");
-
-    if (page.includes("https") || page.includes("http"))
-        currentIndex = websites.indexOf(path);
-    else
-        currentIndex = websites.indexOf(page.pop());
+var path = window.location.href.split("#")[0];
+currentIndex = websites.indexOf(path);
 }
 
 /*
